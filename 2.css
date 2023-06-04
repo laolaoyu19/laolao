@@ -1,0 +1,79 @@
+/* 容器为栅格布局 */
+.container{
+    display: grid;
+    box-shadow: 0px 10px 50px 10px lightgrey;  /*简历周围阴影*/
+    width: 900px;
+    margin: 100px auto;
+    /*background: red;*/
+ 
+}
+/* 简历上方线条 */
+.topline{
+    display: flex;
+    flex-direction: row;
+}
+.top_left{
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    /*transform: translate(-30px,0);  !*  向左偏移  *!*/
+}
+.top_left1{
+    background-color: #6c799d;
+    height: 30px;
+    width: 200px;
+    /*transform: translate(-30px,0);  !*  向左偏移  *!*/
+}
+ 
+.top_right{
+    background-color: #6c799d;
+    height: 30px;
+    width: 100%;
+    /*transform: translate(-30px,0);*/
+    margin-bottom: 20px;
+}
+.top_right p{
+    transform: translate(0,-10px);
+    color: #fff;
+    font-weight: bold;  /*  粗体  */
+}
+ 
+/*   mid  */
+.mid{
+    margin-left: 30px;
+}
+ 
+ 
+/*照片*/
+.jianjie{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.xinming{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.xinming span{
+    font-size: 40px;
+}
+ 
+.mid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    align-items: flex-end;
+}
+.l1,.l2,.l3,.l4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -15px;
+}
+ 
+.normal{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}

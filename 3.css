@@ -1,0 +1,177 @@
+/* CSS Document */
+/* 初始化样式 */
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* 设置背景色 */
+html {
+  background: #b3b6ce;
+}
+/* 设置body主体部分 */
+body {
+  width: 1200px;
+  margin: 0px auto;
+  line-height: 21px;
+  background: #6c799d;
+}
+/* 清除浮动 */
+.clear {
+  clear: both;
+}
+.menu li {
+  list-style: none;
+}
+/* 设置logo */
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+.head {
+  width: 100%;
+  background: #2a3143;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.head h1 {
+  color: #fff;
+  font-weight: normal;
+}
+/* 设置banner部分 */
+.banner {
+  position: relative;
+}
+.banner img {
+  display: block;
+}
+/* 设置菜单部分 */
+/* 设置主要内容部分 */
+.content {
+  background: #6c799d;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+}
+.index {
+  height: 200px;
+  float: left;
+  width: 46%;
+  padding: 2%;
+}
+.mr,
+#submit {
+  background: #111;
+  border: none;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  margin-top: 20px;
+}
+/* 设置主题要内容图片部分 */
+.list li img {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+}
+.end {
+  clear: both;
+  background: #2a3143;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 16px;
+  text-align: center;
+}
+.pad {
+  padding: 20px 70px;
+  display: block;
+}
+.main {
+  margin: 20px 40px;
+}
+.tti {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: normal;
+  color: #FFCC99;
+}
+.con {
+  font-size: 18px;
+  line-height: 30px;
+}
+.cs {
+  margin: 30px 40px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.cs p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+.index img {
+  margin-right: 50px;
+}
+.index h3 {
+  color: #CCCC99;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.index .fr {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.sici {
+  letter-spacing: 10px;
+  text-align: center;
+  background: no-repeat;
+  padding: 200px 0;
+}
+.sici h1 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.sici p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+/* 设置左浮动 */
+.fl {
+  float: left;
+}
+/* 设置右浮动 */
+.fr {
+  float: right;
+}
+.inp {
+  border: #ccc solid 1px;
+  padding: 10px 10px;
+  width: 80%;
+}
+/* 设置留言部分 */
+.msg {
+    width: 740px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .bar {
+    margin: 20px 40px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 20px;
+    padding: 5px;
+  }
